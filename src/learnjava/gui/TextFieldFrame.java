@@ -88,7 +88,14 @@ textField3.setEditable(false); // disable editing
                         string = String.format("passwordField: %s",
                                 event.getActionCommand()
                         );
+                        
+                        //display JTextField Content
+                        JOptionPane.showMessageDialog(null,string);
         }
+            
+            
+            
+            
         }
     }
 }
