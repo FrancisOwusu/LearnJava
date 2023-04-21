@@ -67,14 +67,14 @@ textField.setFont(plainFont);
 
 
 // register events for JRadioButtons
-plainJRadioButton.addItemListener(
-new RadioButtonHandler(plainFont));
-boldJRadioButton.addItemListener(
-new RadioButtonHandler(boldFont));
-italicJRadioButton.addItemListener(
-new RadioButtonHandler(italicFont));
-boldItalicJRadioButton.addItemListener(
-new RadioButtonHandler(boldItalicFont));
+//plainJRadioButton.addItemListener(
+//new RadioButtonHandler(plainFont));
+//boldJRadioButton.addItemListener(
+//new RadioButtonHandler(boldFont));
+//italicJRadioButton.addItemListener(
+//new RadioButtonHandler(italicFont));
+//boldItalicJRadioButton.addItemListener(
+//new RadioButtonHandler(boldItalicFont));
  }
  
  // private inner class to handle radio button events
